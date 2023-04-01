@@ -7,7 +7,7 @@ margin: 0;
 background-image: url("../images/bg.png");
 }
 header {
-    background-color: #9abcf8;
+    background-color: hsl(336, 87%, 79%);
     color: white; 
     padding: 2rem;
 }
