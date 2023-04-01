@@ -1,75 +1,83 @@
-:root {
-    --primary_color: #033f5f;
-    --seconday_color: #007CBC;
-    --highlight_color: #F5BA36;
-    --neutral_grey: #747E83;
-    --neutral_light: #ffffff;
-}
 * {
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: Windsor;
+}
+
+body {
+margin: 0;
+width: 100%;
+}
+
+header {
+    background-color: hsl(336, 87%, 79%);
+    color: black; 
+    width: 100%;
+    padding: .02rem;
 }
 h1 {
-    color: var(--neutral_light); 
+font-size: 2rem;
 }
 h2 {
-    color: var(--primary_color); 
-}
-h3 {
-    color: var(--neutral_grey);
-}
-p {
-    color: var(--neutral_grey);
-}
+font-size: 1.5rem;
+ }
+ h3 {
+    font-size: 1.25rem;
+ }
 img {
-   max-width: 100%; /* This makes all your image responsive */
+    max-width: 100%;
 }
 
+/********** Layout **********/
 .container {
+    background-color: white;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 1.5rem; 
-}
-
-.container {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
     gap: 1.5rem;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 0 auto;
+    width: 100%;
 }
-
 .container > * {
     grid-column: span 12;
 }
 
-/* Media Queries for larger screens than 768px */
-@media screen and (min-width: 48rem) {
+/******* Navigation Using Flexbox *****/
 
-    .col-span-2 {
-        grid-column: span 2
-    }
-    .col-span-3 {
-        grid-column: span 3
-    }
-    .col-span-4 {
-        grid-column: span 4
-    }
-    .col-span-5 {
-        grid-column: span 5
+nav {
+    background-color: beige;
+    padding: 0 3rem;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+}
+nav li{
+    margin: 0 0.5rem;
+}
+nav a:link, nav a:visited {
+    color: black;
+    text-decoration: none;
+    font-size: 1.125rem;
+    padding: 1rem;
+    display: block;
+}
+nav a:hover {
+    background-color: #9abcf8;
+    color: white;
+    transition: ease-in-out 250ms;
+}
+
+/* Desktop Layout */
+@media screen and (min-width: 60rem)
+    .col-span-6 {
+        grid-column: span 6;
     }
     .col-span-6 {
-        grid-column: span 6
+        grid-column: span 6;
     }
-    .col-span-7 {
-        grid-column: span 7
-    }
-    .col-span-8 {
-        grid-column: span 8
-    }
-    .col-span-9 {
-        grid-column: span 9
-    }
-    .col-span-10 {
-        grid-column: span 10
-    }
-
-} /* Closes the media query */
