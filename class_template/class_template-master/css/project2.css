@@ -2,17 +2,15 @@
     box-sizing: border-box;
     font-family: Windsor;
 }
-
 body {
 margin: 0;
 width: 100%;
 }
-
 header {
-    background-color: hsl(336, 87%, 79%);
+    background-color: hsl(0, 58%, 78%);
     color: black; 
     width: 100%;
-    padding: .02rem;
+    padding: 0rem;
 }
 h1 {
 font-size: 2rem;
@@ -25,6 +23,8 @@ font-size: 1.5rem;
  }
 img {
     max-width: 100%;
+    border: 1rem;
+    border-color: black;
 }
 
 /********** Layout **********/
@@ -66,11 +66,6 @@ nav a:link, nav a:visited {
     font-size: 1.125rem;
     padding: 1rem;
     display: block;
-}
-nav a:hover {
-    background-color: #9abcf8;
-    color: white;
-    transition: ease-in-out 250ms;
 }
 
 /* Desktop Layout */
