@@ -1,14 +1,22 @@
 * {
     box-sizing: border-box;
-    font-family: Windsor;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: small;
+    font-style: normal;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body {
 margin: 0;
 width: 100%;
+background-color:  rgb(255, 239, 226);
 }
 header {
     background-color: hsl(0, 58%, 78%);
     color: black; 
+    font-weight: lighter;
+    font-size: xx-small;
     width: 100%;
     padding: 0rem;
 }
@@ -24,12 +32,16 @@ font-size: 1.5rem;
 img {
     max-width: 100%;
     border: 1rem;
+    padding: 0%;
+    justify-content: center;
+    text-align: center;
+    margin: 0%;
     border-color: black;
 }
 
 /********** Layout **********/
 .container {
-    background-color: white;
+    background-color: rgb(253, 245, 238) ;
     display: grid;
     gap: 1.5rem;
     grid-template-columns: repeat(12, 1fr);
@@ -43,8 +55,8 @@ img {
 /******* Navigation Using Flexbox *****/
 
 nav {
-    background-color: beige;
-    padding: 0 3rem;
+    background-color: rgb(253, 245, 238;
+    padding: 0;
     display: flex;
     justify-content: center;
     position: sticky;
