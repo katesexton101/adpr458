@@ -18,7 +18,11 @@ header {
     font-weight: lighter;
     font-size: xx-small;
     width: 100%;
-    padding: 0rem;
+    padding: 0;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    top: 0;
 }
 h1 {
 font-size: 2rem;
@@ -55,7 +59,7 @@ img {
 /******* Navigation Using Flexbox *****/
 
 nav {
-    background-color: rgb(253, 245, 238;
+    background-color: rgb(253, 245, 238);
     padding: 0;
     display: flex;
     justify-content: center;
@@ -81,10 +85,12 @@ nav a:link, nav a:visited {
 }
 
 /* Desktop Layout */
-@media screen and (min-width: 60rem)
+@media screen and (min-width: 60rem) {
+
     .col-span-6 {
         grid-column: span 6;
     }
     .col-span-6 {
         grid-column: span 6;
     }
+}
