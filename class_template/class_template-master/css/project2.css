@@ -35,8 +35,13 @@ h2 {
     display: flex;
  }
  h3 {
-    font-size: 1.25rem;
+    font-size: 1rem;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    right: 13%;
  }
+ 
 img {
     max-width: 100%;
     border: 1rem;
