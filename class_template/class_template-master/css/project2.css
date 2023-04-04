@@ -40,16 +40,17 @@ h2 {
     text-align: center;
     position: relative;
     right: 13%;
- }
- 
-img {
+}
+.picture{
     max-width: 100%;
     border: 1rem;
     padding: 0%;
     margin: 0%;
     border-color: black;
-    border-width: 20rem;
+    border-width: .1rem;
+    border-style: solid;
 }
+
 
 /********** Layout **********/
 .container {
@@ -102,7 +103,8 @@ nav a:link, nav a:visited {
     left: 15%;
     margin: 0%;
     border-color: black;
-    border-width: 20rem;
+    border-width: .1rem;
+    border-style: solid;
 }
 
 /* Desktop Layout */
