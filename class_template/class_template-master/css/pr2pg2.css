@@ -25,10 +25,7 @@ header {
     top: 0;
 }
 h1 {
-    font-size: 2rem;
-    justify-content: center;
-    text-align: center;
-    display: flex;
+font-size: 2rem;
 }
 h2 {
 font-size: 1.5rem;
