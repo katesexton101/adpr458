@@ -20,9 +20,7 @@ header {
     width: 100%;
     padding: 0;
     position: sticky;
-    display: flex;
-    justify-content: center;
-    top: 0;
+    top: 0; 
 }
 h1 {
     font-size: 1.75rem;
