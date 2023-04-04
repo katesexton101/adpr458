@@ -31,7 +31,7 @@ h1 {
     display: flex;
 }
 h2 {
-    font-size: 3.75rem;
+    font-size: 3.65rem;
     justify-content: center;
     text-align: center;
     display: flex;
@@ -43,10 +43,9 @@ img {
     max-width: 100%;
     border: 1rem;
     padding: 0%;
-    justify-content: center;
-    text-align: center;
     margin: 0%;
     border-color: black;
+    border-width: 20rem;
 }
 
 /********** Layout **********/
@@ -60,6 +59,15 @@ img {
 }
 .container > * {
     grid-column: span 12;
+}
+
+.bigimage {
+    max-width: 50%;
+    border: 1rem;
+    padding: 0%;
+    margin: 0%;
+    border-color: black;
+    border-width: 20rem;
 }
 
 /******* Navigation Using Flexbox *****/
