@@ -41,16 +41,14 @@ h2 {
     position: relative;
     right: 13%;
 }
-.picture{
+.picture {
     max-width: 100%;
-    border: 1rem;
     padding: 0%;
     margin: 0%;
     border-color: black;
     border-width: .1rem;
     border-style: solid;
 }
-
 
 /********** Layout **********/
 .container {
@@ -95,16 +93,14 @@ nav a:link, nav a:visited {
 }
 .img3 {
     max-width: 100%;
-    width: auto;
-    text-align:center; 
-    border: 1rem;
-    padding: 0%;
+    text-align: center;
     position: relative;
     left: 15%;
-    margin: 0%;
-    border-color: black;
-    border-width: .1rem;
-    border-style: solid;
+}
+.window {
+   max-width: 100%;
+   justify-content: center;
+   text-align: center;
 }
 
 /* Desktop Layout */
