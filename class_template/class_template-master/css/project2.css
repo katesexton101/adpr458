@@ -44,9 +44,15 @@ h2 {
 h4 {
     font-size: 2rem;
     text-align: center;
+    font-style: italic;
     justify-content: center;
 }
-
+h5 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-style: bold;
+    justify-content: center;
+}
 .picture {
     max-width: 100%;
     padding: 0%;
@@ -54,6 +60,10 @@ h4 {
     border-color: black;
     border-width: .1rem;
     border-style: solid;
+}
+.above {
+    justify-content: center;
+    text-align: center;
 }
 
 /********** Layout **********/
@@ -112,7 +122,10 @@ nav a:link, nav a:visited {
     justify-content: center;
     text-align: center;
 }
-
+.button {
+    justify-content: center;
+    text-align: center;
+} 
 
 /* Desktop Layout */
 @media screen and (min-width: 60rem) {

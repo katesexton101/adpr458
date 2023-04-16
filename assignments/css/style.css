@@ -131,4 +131,8 @@ nav a:hover {
     .card {
         flex-basis: 27.5%;
     }
+    .button:hover {
+        background-color: #f6d2c6;
+    }
+    
 }
