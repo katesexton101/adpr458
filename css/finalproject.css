@@ -43,6 +43,12 @@ h3 {
     top: -400px;
 }
 
+.aside {
+    position: relative;
+    left: 47%;
+    top: -150px;
+}
+
 /********** Layout **********/
 .container {
     background-color: rgb(221, 246, 255);
