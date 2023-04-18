@@ -23,6 +23,7 @@ img {
 h1 {
     font-size: 6rem;
     color: black;
+    font-weight: bolder;
     background-color: rgb(221, 246, 255);
     justify-content: center;
     text-align: center;
