@@ -30,8 +30,14 @@ h1 {
     right: 30%;
     display: flex;
 }
-h2 {
+h3 {
     font-size: 1.75rem;
+    position: relative;
+    left: 14%;
+    top: -400px;
+}
+h2 {
+    font-size: 2rem;
     position: relative;
     left: 14%;
     top: -400px;
