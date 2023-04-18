@@ -30,6 +30,12 @@ h1 {
     right: 30%;
     display: flex;
 }
+h2 {
+    font-size: 1.75rem;
+    position: relative;
+    left: 14%;
+    top: -400px;
+}
 
 /********** Layout **********/
 .container {
