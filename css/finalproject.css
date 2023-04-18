@@ -61,14 +61,14 @@ h5 {
 .aside {
     position: relative;
     left: 46%;
-    top: -149px;
+    top: -228px;
 }
 footer {
     background-color: black;
     color: white; 
     width: 100%;
     position: relative;
-    height: 175px;
+    height: 140px;
     bottom: 0;
     left: 0;
 }
