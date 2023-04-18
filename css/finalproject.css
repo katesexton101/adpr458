@@ -42,6 +42,16 @@ h3 {
     left: 14%;
     top: -400px;
 }
+h4 {
+    font-size: 1.5rem;
+    justify-content: center;
+    text-align: center;
+}
+h5 {
+    font-size: 1.5rem;
+    justify-content: center;
+    text-align: center;
+}
 .aside {
     position: relative;
     left: 46%;
@@ -52,7 +62,7 @@ footer {
     color: white; 
     width: 100%;
     position: relative;
-    height: 90px;
+    height: 175px;
     bottom: 0;
     left: 0;
 }
