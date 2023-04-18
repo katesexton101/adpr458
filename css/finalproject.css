@@ -42,13 +42,20 @@ h3 {
     left: 14%;
     top: -400px;
 }
-
 .aside {
     position: relative;
     left: 46%;
-    top: -150px;
+    top: -151px;
 }
-
+footer {
+    background-color: black;
+    color: white; 
+    width: 100%;
+    position: relative;
+    height: 90px;
+    bottom: 0;
+    left: 0;
+}
 /********** Layout **********/
 .container {
     background-color: rgb(221, 246, 255);
