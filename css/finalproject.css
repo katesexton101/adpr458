@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-color: black 
+    color: white;
+    font-size: small;
+    font-style: normal;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+margin: 0;
+width: 100%;
+background-color: rgb(221, 246, 255);
+}
+
+h1 {
+    font-size: 4rem;
+    color: black;
+    background-color: rgb(221, 246, 255);
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    right: 38%;
+    display: flex;
+}
+
+/********** Layout **********/
+.container {
+    background-color: rgb(221, 246, 255);
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 0 auto;
+    width: 100%;
+}
+.container > * {
+    grid-column: span 12;
+}
+
+/******* Navigation Using Flexbox *****/
+
+nav {
+    background-color: black;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 27;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+}
+nav li{
+    margin: 0 0.5rem;
+}
+nav a:link, nav a:visited {
+    color: white;
+    text-decoration: none;
+    font-size: 1.125rem;
+    padding: 1rem;
+    display: block;
+}
+.button {
+    justify-content: center;
+    text-align: center;
+} 
+
+/* Desktop Layout */
+@media screen and (min-width: 60rem) {
+
+    .col-span-6 {
+        grid-column: span 6;
+    }
+    .col-span-6 {
+        grid-column: span 6;
+    }
+}
