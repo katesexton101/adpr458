@@ -14,12 +14,6 @@ margin: 0;
 width: 100%;
 background-color: rgb(221, 246, 255);
 }
-img {
-    max-width: 20%;
-    position: relative;
-    left: 60%;
-    top: -200px;
-}
 h1 {
     font-size: 6rem;
     color: black;
@@ -57,11 +51,6 @@ h5 {
     text-align: center;
     position: relative;
     left: 17%;
-}
-.aside {
-    position: relative;
-    left: 46%;
-    top: -228px;
 }
 footer {
     background-color: black;
