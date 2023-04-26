@@ -60,7 +60,6 @@ img {
     justify-content: center;
     text-align: center;
     margin: 15%;
-    border-color: black;
     position: relative;
     left: 28%;
 }
@@ -73,7 +72,7 @@ img {
 }
 .btn-group button {
     background-color: coral; 
-    border: 1px solid: 
+    border-color:orangered;
     color: white; 
     padding: 10px 24px; 
     margin: 5%;
