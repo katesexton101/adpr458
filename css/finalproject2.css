@@ -87,6 +87,37 @@ img {
     position: relative;
     left: 2.75%;
 }
+.blog {
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    left: 1.75%; 
+}
+.news {
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    right: .5%; 
+}
+.brief {
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    right: 3.4%;
+}
+.list {
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    right: 7%;
+}
+.mag {
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    bottom: 50%;
+    left: 79.45%;
+}
 footer {
     background-color: black;
     color: white; 
