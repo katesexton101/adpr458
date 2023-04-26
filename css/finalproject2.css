@@ -71,6 +71,22 @@ img {
     justify-content: center;
     text-align: center;
 }
+.btn-group button {
+    background-color: #04AA6D; 
+    border: 1px solid green; 
+    color: white; 
+    padding: 10px 24px; 
+    margin: 5%;
+    margin-bottom: 20%;
+    cursor: pointer;
+    float:left;
+}
+.ad {
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    left: 2.75%;
+}
 footer {
     background-color: black;
     color: white; 
