@@ -56,16 +56,20 @@ h5 {
 img {
     max-width: 100%;
     border: 1rem;
-    padding: 15%;
+    padding: 10%;
     justify-content: center;
     text-align: center;
-    margin: 10%;
+    margin: 15%;
     border-color: black;
+    position: relative;
+    left: 28%;
 }
 #images {
     white-space: nowrap;
     max-width: 180px;
     max-height: 180px;
+    justify-content: center;
+    text-align: center;
 }
 footer {
     background-color: black;
